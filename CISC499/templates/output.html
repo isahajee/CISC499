@@ -55,28 +55,8 @@
 							<article class="box page-content">
 
 								<header>
-									<h2>What is ez wraps?</h2>
-									<p>Fast, Accurate and versatile</p>
+									<h2>EZ Wraps is processing your file</h2>
 								</header>
-
-								<section>
-									<p>
-										EZ Wraps offers a new and innovative way to create wrapping cutouts for boxes. Simply input the dimensions of your box, or upload an SVG file, and EZ Wraps does the rest!
-									</p>
-									
-									<div class="col-12">
-										<ul class="actions">
-											<li><a href="/application.html" class="button large">Get Started</a></li>
-										</ul>
-									</div>
-								</section>
-
-								<section>
-									<h3>Streamlining design processes</h3>
-									<p>
-										EZ Wraps allows you to automate the process of making wrapping for your boxes. No longer will you have to open your box net file and manually create flaps and teeth so that your wrapping fits perfectly. EZ Wraps automatically generates flaps and teeth cutouts to ensure that your box is perfectly wrapped every time - eliminating the need for trial and error and material wastage. EZ Wraps also gives an SVG file as an output, allowing a seamless transition to machining/cutting tools.
-									</p>
-								</section>
 
 							</article>
 
@@ -86,19 +66,16 @@
 
 						<!-- Features -->
 						<section class="box features">
-							<h2 class="major"><span>EZ wraps in action</span></h2>
+							<h2 class="major"><span>Watch EZ Wraps in action</span></h2>
 							<div>
 								<div class="row">
 									<div class="col-3 col-6-medium col-12-small">
 
 										<!-- Feature -->
 										<section class="box feature">
-											<a href="#" class="image featured"><img src="{{ url_for('static', filename='images/pic01.jpg') }}" alt="" /></a>
-											<h3><a href="#">Paper wraps</a></h3>
-											<p>
-												Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
-												lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
-											</p>
+											{{svg1|safe}}
+											<h3>Stage 1</h3>
+
 										</section>
 
 									</div>
@@ -106,12 +83,9 @@
 
 										<!-- Feature -->
 										<section class="box feature">
-											<a href="#" class="image featured"><img src="{{ url_for('static', filename='images/pic02.jpg') }}" alt="" /></a>
-											<h3><a href="#">Felt Wraps</a></h3>
-											<p>
-												Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
-												lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
-											</p>
+											{{svg2|safe}}
+											<h3>Stage 2</h3>
+
 										</section>
 
 									</div>
@@ -119,12 +93,9 @@
 
 										<!-- Feature -->
 										<section class="box feature">
-											<a href="#" class="image featured"><img src="{{ url_for('static', filename='images/pic03.jpg') }}" alt="" /></a>
-											<h3><a href="#">Plastic Wraps</a></h3>
-											<p>
-												Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
-												lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
-											</p>
+											{{svg3|safe}}
+											<h3>Stage 3</h3>
+
 										</section>
 
 									</div>
@@ -132,12 +103,9 @@
 
 										<!-- Feature -->
 										<section class="box feature">
-											<a href="#" class="image featured"><img src="{{ url_for('static', filename='images/pic04.jpg') }}" alt="" /></a>
-											<h3><a href="#">Fabric Wraps</a></h3>
-											<p>
-												Phasellus quam turpis, feugiat sit amet ornare in, a hendrerit in
-												lectus dolore. Praesent semper mod quis eget sed etiam eu ante risus.
-											</p>
+											{{svg4|safe}}
+											<h3>Stage 4</h3>
+
 										</section>
 
 									</div>
@@ -148,6 +116,21 @@
 					</div>
 				</div>
 			</div>
+			<section>
+				<div class="col-3 col-6-medium col-12-small">
+
+					<!-- Feature -->
+					<section class="box feature">
+						<br>
+						{{svgfinal|safe}}
+						<h2>Final Wrapping </h2>
+						<ul class="actions">
+							<li><a href="/download.html" class="button large">Download File</a></li>
+						</ul>	
+					</section>
+
+				</div>
+			</section>
 		</section>
 
 		<!-- Footer -->
